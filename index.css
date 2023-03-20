@@ -498,6 +498,12 @@ body {
   transition: all 0.3s;
 }
 
+.part1-details__items li a {
+  padding-right: 1rem;
+  text-decoration: none;
+  color: #fff;
+}
+
 .part1-details__items li:hover {
   background-color: #eb2f64;
 }
