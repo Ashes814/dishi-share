@@ -69,7 +69,9 @@ body {
   max-width: 1200px;
   margin: 0 auto;
 } */
-
+.hide {
+  display: none;
+}
 .nav {
   /* position: fixed; */
   background-color: #222;
@@ -116,12 +118,12 @@ body {
 
 .nav a.current,
 .nav a:hover {
-  color: #c0392b;
+  color: #eb2f64;
   font-weight: bold;
 }
 
 .hero {
-  background-image: url("https://images.pexels.com/photos/450035/pexels-photo-450035.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-image: url(./cover.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom center;
@@ -169,10 +171,11 @@ body {
   letter-spacing: 1.2px;
 }
 
-.container {
+.container2 {
   max-width: 120rem;
   padding: 0 3.2rem;
   margin: 0 auto;
+  /* display: none; */
 }
 
 .grid {
@@ -316,7 +319,7 @@ body {
   font-size: 1.5rem;
 }
 
-.container {
+.container2 {
   font-family: "Noto Sans SC", sans-serif;
   /* font-family: "ZCOOL KuaiLe", sans-serif; */
   /* display: flex; */
@@ -758,4 +761,11 @@ body {
 .btn-text:active {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   transform: translateY(0);
+}
+
+.start2 {
+  text-decoration: none;
+  color: #eb2f64;
+  font-weight: 700;
+  transform: translateY(100px);
 }
