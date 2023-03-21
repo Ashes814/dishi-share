@@ -127,7 +127,7 @@ header {
 }
 
 .hero {
-  background-image: url(./cover.jpg);
+  background-image: url(./img/cover.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom center;
@@ -610,7 +610,7 @@ header {
       rgba(0, 0, 0, 0.6),
       rgba(0, 0, 0, 0.6)
     ),
-    url(./doors.jpg);
+    url(./img/doors.webp);
   background-size: cover;
   background-position: top;
   height: 100vh;
@@ -769,8 +769,8 @@ header {
 }
 
 .start2 {
+  padding-left: 2rem;
   text-decoration: none;
   color: #eb2f64;
   font-weight: 700;
-  transform: translateY(100px);
 }
