@@ -69,6 +69,9 @@ body {
   max-width: 1200px;
   margin: 0 auto;
 } */
+header {
+  height: 100vh;
+}
 .hide {
   display: none;
 }
@@ -79,6 +82,7 @@ body {
   left: 0;
   right: 0;
   transition: all 0.3s ease-in-out;
+  height: 8vh;
 }
 
 .nav .container {
@@ -127,7 +131,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom center;
-  height: 100vh;
+  height: 92vh;
   color: #fff;
   display: flex;
   justify-content: center;
@@ -215,7 +219,7 @@ body {
 /*********/
 
 .section-how {
-  padding: 9.6rem 0;
+  padding: 9.6rem 2rem;
 }
 
 .step-number {
@@ -630,6 +634,7 @@ body {
 }
 
 .section-4 {
+  /* padding: auto 2rem; */
   text-align: center;
 }
 
